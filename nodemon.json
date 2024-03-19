@@ -1,0 +1,6 @@
+{
+  "ignore": ["mockData/*"],
+  "execMap": {
+    "ts": "ts-node"
+  }
+}

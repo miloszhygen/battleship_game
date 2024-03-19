@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // Compile down to a version of JavaScript that supports ESM
+    "target": "ESNext",
+    // Use ES Modules
+    "module": "ESNext",
+    // Enable all strict type-checking options
+    "strict": true,
+    // Allow default imports from modules with no default export
+    "esModuleInterop": true,
+    // Skip type checking of all declaration files (*.d.ts)
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    // Use Node.js module resolution mechanism
+    "moduleResolution": "node",
+    // Output directory for compiled files
+    "outDir": "./dist",
+    // Generate corresponding '.d.ts' file
+    "declaration": true,
+    // Generate source map files for debugging
+    "sourceMap": true,
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  // Include all files in the src directory
+  "include": ["src/**/*", "playground.ts", "./playground.ts"],
+  // Exclude directories
+  "exclude": ["node_modules", "dist", "mockData", "./mockData"]
+}
